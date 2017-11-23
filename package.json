@@ -1,0 +1,35 @@
+{
+  "name": "hagent",
+  "description": "HTTP agent for whistle",
+  "version": "0.1.0",
+  "author": "avenwu <avenwu@vip.qq.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avwo/hagent/issues"
+  },
+  "homepage": "https://github.com/avwo/hagent",
+  "keywords": [
+    "whistle",
+    "http-agent"
+  ],
+  "registry": "http://registry.npmjs.org/hagent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avwo/hagent.git"
+  },
+  "scripts": {
+    "lint": "eslint ./lib *.js",
+    "lintfix": "eslint --fix ./lib *.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0"
+  },
+  "dependencies": {
+    "q": "1.4.1",
+    "safe-buffer": "^5.0.1"
+  }
+}
