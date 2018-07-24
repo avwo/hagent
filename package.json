@@ -1,7 +1,7 @@
 {
   "name": "hagent",
   "description": "HTTP agent for whistle",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "avenwu <avenwu@vip.qq.com>",
   "contributors": [],
   "license": "MIT",
